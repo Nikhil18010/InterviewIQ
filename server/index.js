@@ -25,7 +25,7 @@ const app=express();
 
 
 app.use(cors({
-    origin: ["http://localhost:5173", "https://getaiinterview-client.onrender.com"],
+    origin: ["http://localhost:5173", "https://getaiinterview-client.onrender.com", "https://interview-iq-black-sigma.vercel.app"],
     credentials: true
 }));
 
